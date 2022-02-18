@@ -436,7 +436,7 @@ class ResnetBlock(nn.Module):
 
 
 class Bottle2neck(nn.Module):
-    expansion = 4
+    expansion = 1
 
     def __init__(self, inplanes, planes, stride=1, downsample=None, baseWidth=26, scale=4, stype='normal'):
         """ Constructor
